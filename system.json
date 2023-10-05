@@ -84,6 +84,6 @@
   "gridDistance": 1.0,
   "gridUnits": "m",
   "url": "https://github.com/marcoswalker/tagmar_pirata",
-  "manifest": "https://raw.githubusercontent.com/marcoswalker/tagmar_pirata/master/system.json",
-  "download": "https://codeload.github.com/marcoswalker/tagmar_pirata/zip/master"
+  "manifest": "https://raw.githubusercontent.com/marcoswalker/tagmar_pirata/main/system.json",
+  "download": "https://codeload.github.com/marcoswalker/tagmar_pirata/zip/main"
 }
