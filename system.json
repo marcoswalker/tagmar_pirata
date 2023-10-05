@@ -1,0 +1,89 @@
+{
+  "id": "tagmar_rpg",
+  "title": "Tagmar Pirata",
+  "description": "Sistema Tagmar com modificações.",
+  "version": "1.0.0",
+  "relationships": {
+    "requires": [
+      {
+        "id": "barbrawl",
+        "manifest": "https://gitlab.com/woodentavern/foundryvtt-bar-brawl/-/raw/master/src/module.json"
+      },
+      {
+        "id": "lib-wrapper",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Marcos Walker",
+      "url": "https://github.com/marcoswalker"
+    },
+    {
+      "name": "Vinicius Fernandez",
+      "url": "https://www.youtube.com/channel/UCDyR_0eg3TjV5r5cOUqQaSQ"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "url": "https://youtu.be/N2yr3L2m2ac?list=PLrRhUsW5zVjALqHoqfyaDXoRv2ku6Wxei"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "scripts": [
+  ],
+  "esmodules": [
+    "modules/tagmar.js"
+  ],
+  "styles": [
+    "css/bootstrap-grid.css",
+    "css/sheet.css"
+  ],
+  "packs": [
+    {
+      "name": "criando-fichas",
+      "label": "Criando Fichas",
+      "system": "tagmar_rpg",
+      "path": "packs/criando-fichas",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "criaturas-e-arquetipos",
+      "label": "Criaturas e Arquetipos",
+      "system": "tagmar_rpg",
+      "path": "packs/criaturas-e-arquetipos",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "registro-de-datas",
+      "label": "Registro de Datas",
+      "system": "tagmar_rpg",
+      "path": "packs/registro-de-datas",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "GAMEMASTER": "OWNER"
+      }
+    }
+  ],
+  "languages": [
+  ],
+  "gridDistance": 1.0,
+  "gridUnits": "m",
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
