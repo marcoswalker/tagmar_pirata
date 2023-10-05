@@ -1,1 +1,2 @@
-Para instalar o sistema utilize o manifest: https://raw.githubusercontent.com/marcoswalker/tagmar_rpg/master/system.json
+## Sistema modificado que utiliza novas regras para técnicas de combate.
+Para instalar o sistema utilize o manifest: https://raw.githubusercontent.com/marcoswalker/tagmar_pirata/master/system.json
