@@ -2,7 +2,7 @@
   "id": "tagmar_rpg",
   "title": "Tagmar Pirata",
   "description": "Sistema Tagmar com modificações.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "relationships": {
     "requires": [
       {
